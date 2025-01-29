@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Загрузка</title>
+<style type="text/css">
+	
+body
+{
+margin: 0;
+background: white;
+
+
+
+}
+.loader-container
+{
+position: absolute;
+top:calc(50% - 65px);
+left:calc(50% - 65px);
+width: 100px;
+height:100px;
+background: #bde2e0;
+border-radius: 50%;
+border: 15px solid #d7695a;
+box-shadow: inse 0 0 15px rgba(0,0,0,.5);
+color: white;
+text-align: center;
+font-weight: bold;
+font-size: 30px;
+line-height: 100px;
+overflow: hidden;
+}
+
+@keyframes load{
+100%
+
+{
+transform: translateY(-1100px);
+
+
+}
+
+}
+.loader
+
+
+{
+
+	animation: load 11s steps(11,end) infinite;
+}
+
+
+
+
+</style>
+</head>
+<body>
+<div class="loader-container">  
+<div class="loader">
+
+<span>0%</span>
+<span>10%</span>
+<span>20%</span>
+<span>30%</span>
+<span>40%</span>
+<span>50%</span>
+<span>60%</span>
+<span>70%</span>
+<span>80%</span>
+<span>90%</span>
+<span>100%</span>
+
+
+
+
+
+
+</div>	
+</div>
+</body>
+</html>
